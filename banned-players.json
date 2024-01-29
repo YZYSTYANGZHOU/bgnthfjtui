@@ -1,0 +1,42 @@
+[
+  {
+    "uuid": "333500e7-e3b2-33fd-8afa-8a6bd2df44d7",
+    "name": "FDP56_O6rw",
+    "created": "2023-11-24 15:46:09 +0800",
+    "source": "yangzhou_ovo",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "85f1e7f1-fcdb-34b2-be4c-897ccc778efc",
+    "name": "WoI560",
+    "created": "2023-11-24 15:31:06 +0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "df1abe02-79e2-3396-9ec8-4fbdacb68c21",
+    "name": "ExtremeGTV",
+    "created": "2023-11-24 15:44:41 +0800",
+    "source": "yangzhou_ovo",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "9b8a006c-d53d-394d-9c9f-bf53411eac57",
+    "name": "gftx2427",
+    "created": "2023-11-24 15:42:58 +0800",
+    "source": "yangzhou_ovo",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "fc8a47cf-f94c-3b33-b296-de55403cafca",
+    "name": "73m9",
+    "created": "2023-11-24 16:06:16 +0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
