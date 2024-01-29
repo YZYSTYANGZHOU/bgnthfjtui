@@ -1,0 +1,768 @@
+{
+  "commands": [
+    {
+      "name": "gma",
+      "permission": "aqua.command.gamemode",
+      "aliases": [
+        "gm2"
+      ]
+    },
+    {
+      "name": "gamemode",
+      "permission": "aqua.command.gamemode",
+      "aliases": [
+        "gm"
+      ]
+    },
+    {
+      "name": "gmc",
+      "permission": "aqua.command.gamemode",
+      "aliases": [
+        "gm1"
+      ]
+    },
+    {
+      "name": "gms",
+      "permission": "aqua.command.gamemode",
+      "aliases": [
+        "gm0"
+      ]
+    },
+    {
+      "name": "ignore",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "message",
+      "permission": "",
+      "aliases": [
+        "msg",
+        "tell",
+        "m"
+      ]
+    },
+    {
+      "name": "reply",
+      "permission": "",
+      "aliases": [
+        "r"
+      ]
+    },
+    {
+      "name": "togglemessages",
+      "permission": "",
+      "aliases": [
+        "tpm",
+        "msgtoggle",
+        "togglepm"
+      ]
+    },
+    {
+      "name": "togglesounds",
+      "permission": "",
+      "aliases": [
+        "tpms",
+        "togglepms",
+        "sounds"
+      ]
+    },
+    {
+      "name": "panic",
+      "permission": "aqua.command.panic",
+      "aliases": []
+    },
+    {
+      "name": "unpanic",
+      "permission": "aqua.command.unpanic",
+      "aliases": []
+    },
+    {
+      "name": "addlore",
+      "permission": "aqua.command.addlore",
+      "aliases": [
+        "additemlore"
+      ]
+    },
+    {
+      "name": "removelore",
+      "permission": "aqua.command.removelore",
+      "aliases": [
+        "removeitemlore"
+      ]
+    },
+    {
+      "name": "rename",
+      "permission": "aqua.command.rename",
+      "aliases": [
+        "renameitem"
+      ]
+    },
+    {
+      "name": "teleport",
+      "permission": "aqua.command.teleport",
+      "aliases": [
+        "tp"
+      ]
+    },
+    {
+      "name": "teleporthere",
+      "permission": "aqua.command.teleporthere",
+      "aliases": [
+        "tphere",
+        "s"
+      ]
+    },
+    {
+      "name": "teleportposition",
+      "permission": "aqua.command.teleportposition",
+      "aliases": [
+        "tppos"
+      ]
+    },
+    {
+      "name": "teleportworld",
+      "permission": "aqua.command.teleportworld",
+      "aliases": [
+        "tpworld"
+      ]
+    },
+    {
+      "name": "top",
+      "permission": "aqua.command.top",
+      "aliases": []
+    },
+    {
+      "name": "adminchat",
+      "permission": "aqua.adminchat",
+      "aliases": [
+        "ac"
+      ]
+    },
+    {
+      "name": "alert",
+      "permission": "aqua.command.alert",
+      "aliases": []
+    },
+    {
+      "name": "broadcast",
+      "permission": "aqua.command.broadcast",
+      "aliases": [
+        "bc"
+      ]
+    },
+    {
+      "name": "chat",
+      "permission": "aqua.command.chat",
+      "aliases": []
+    },
+    {
+      "name": "clear",
+      "permission": "aqua.command.clear",
+      "aliases": [
+        "clearinv",
+        "ci"
+      ]
+    },
+    {
+      "name": "craft",
+      "permission": "aqua.command.craft",
+      "aliases": []
+    },
+    {
+      "name": "feed",
+      "permission": "aqua.command.feed",
+      "aliases": []
+    },
+    {
+      "name": "fly",
+      "permission": "aqua.command.fly",
+      "aliases": []
+    },
+    {
+      "name": "freeze",
+      "permission": "aqua.command.freeze",
+      "aliases": [
+        "ss",
+        "screenshare"
+      ]
+    },
+    {
+      "name": "heal",
+      "permission": "aqua.command.heal",
+      "aliases": []
+    },
+    {
+      "name": "invsee",
+      "permission": "aqua.command.invsee",
+      "aliases": []
+    },
+    {
+      "name": "getips",
+      "permission": "aqua.command.ips",
+      "aliases": [
+        "getip"
+      ]
+    },
+    {
+      "name": "massay",
+      "permission": "aqua.command.massay",
+      "aliases": []
+    },
+    {
+      "name": "more",
+      "permission": "aqua.command.more",
+      "aliases": []
+    },
+    {
+      "name": "repair",
+      "permission": "aqua.command.repair",
+      "aliases": [
+        "fix"
+      ]
+    },
+    {
+      "name": "reports",
+      "permission": "aqua.command.reports",
+      "aliases": []
+    },
+    {
+      "name": "servermanager",
+      "permission": "aqua.command.servermanager",
+      "aliases": []
+    },
+    {
+      "name": "setjoinlocation",
+      "permission": "aqua.command.setjoinlocation",
+      "aliases": []
+    },
+    {
+      "name": "skull",
+      "permission": "aqua.command.skull",
+      "aliases": [
+        "head",
+        "getskull",
+        "gethead"
+      ]
+    },
+    {
+      "name": "speed",
+      "permission": "aqua.command.speed",
+      "aliases": []
+    },
+    {
+      "name": "staffchat",
+      "permission": "aqua.staffchat",
+      "aliases": [
+        "sc"
+      ]
+    },
+    {
+      "name": "staffmode",
+      "permission": "aqua.command.staffmode",
+      "aliases": [
+        "mod",
+        "h",
+        "staff"
+      ]
+    },
+    {
+      "name": "sudo",
+      "permission": "aqua.command.sudo",
+      "aliases": [
+        "sudoplayer"
+      ]
+    },
+    {
+      "name": "vanish",
+      "permission": "aqua.command.vanish",
+      "aliases": [
+        "v"
+      ]
+    },
+    {
+      "name": "tps",
+      "permission": "aqua.command.tps",
+      "aliases": [
+        "lagg",
+        "lag"
+      ]
+    },
+    {
+      "name": "discord",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "god",
+      "permission": "aqua.command.god",
+      "aliases": []
+    },
+    {
+      "name": "helpop",
+      "permission": "aqua.command.helpop",
+      "aliases": [
+        "request"
+      ]
+    },
+    {
+      "name": "ping",
+      "permission": "",
+      "aliases": [
+        "latency",
+        "ms"
+      ]
+    },
+    {
+      "name": "playtime",
+      "permission": "aqua.command.playtime",
+      "aliases": [
+        "pt"
+      ]
+    },
+    {
+      "name": "report",
+      "permission": "aqua.command.report",
+      "aliases": []
+    },
+    {
+      "name": "store",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "teamspeak",
+      "permission": "",
+      "aliases": [
+        "ts"
+      ]
+    },
+    {
+      "name": "twitter",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "blacklistedpermissions",
+      "permission": "aqua.command.blacklistedpermissions",
+      "aliases": []
+    },
+    {
+      "name": "info",
+      "permission": "aqua.command.info",
+      "aliases": [
+        "seen"
+      ]
+    },
+    {
+      "name": "setpermission",
+      "permission": "aqua.command.setpermission",
+      "aliases": [
+        "setperm"
+      ]
+    },
+    {
+      "name": "ban",
+      "permission": "punishments.command.ban",
+      "aliases": [
+        "tempban"
+      ]
+    },
+    {
+      "name": "banip",
+      "permission": "punishments.command.banip",
+      "aliases": [
+        "tempbanip",
+        "ipban",
+        "iptempban"
+      ]
+    },
+    {
+      "name": "blacklist",
+      "permission": "punishments.command.blacklist",
+      "aliases": [
+        "bl",
+        "blplayer",
+        "blacklistplayer"
+      ]
+    },
+    {
+      "name": "check",
+      "permission": "punishments.command.check",
+      "aliases": [
+        "c",
+        "cpunishments",
+        "checkpunishments"
+      ]
+    },
+    {
+      "name": "kick",
+      "permission": "punishments.command.kick",
+      "aliases": [
+        "kickplayer"
+      ]
+    },
+    {
+      "name": "mute",
+      "permission": "punishments.command.mute",
+      "aliases": [
+        "tempmute"
+      ]
+    },
+    {
+      "name": "warn",
+      "permission": "punishments.command.warn",
+      "aliases": []
+    },
+    {
+      "name": "unban",
+      "permission": "punishments.command.unban",
+      "aliases": []
+    },
+    {
+      "name": "unblacklist",
+      "permission": "punishments.command.unblacklist",
+      "aliases": [
+        "unbl",
+        "unblplayer",
+        "unblacklistplayer"
+      ]
+    },
+    {
+      "name": "unmute",
+      "permission": "punishments.command.unmute",
+      "aliases": []
+    },
+    {
+      "name": "punishinfo",
+      "permission": "",
+      "aliases": [
+        "pinfo",
+        "punishi",
+        "baninfo",
+        "warninfo",
+        "warns"
+      ]
+    },
+    {
+      "name": "staffhistory",
+      "permission": "punishments.command.staffhistory",
+      "aliases": []
+    },
+    {
+      "name": "staffrollback",
+      "permission": "punishments.command.staffrollback",
+      "aliases": []
+    },
+    {
+      "name": "grant",
+      "permission": "aqua.command.grant",
+      "aliases": []
+    },
+    {
+      "name": "grants",
+      "permission": "aqua.command.grants",
+      "aliases": []
+    },
+    {
+      "name": "rank",
+      "permission": "aqua.command.rank",
+      "aliases": [
+        "ranks"
+      ]
+    },
+    {
+      "name": "setrank",
+      "permission": "aqua.command.setrank",
+      "aliases": []
+    },
+    {
+      "name": "tag",
+      "permission": "",
+      "aliases": [
+        "tags",
+        "prefix"
+      ]
+    },
+    {
+      "name": "aquacore",
+      "permission": "",
+      "aliases": [
+        "core",
+        "aqua",
+        "oaanmdalolo1lnanhj2opa"
+      ]
+    },
+    {
+      "name": "color",
+      "permission": "",
+      "aliases": [
+        "namecolor"
+      ]
+    },
+    {
+      "name": "list",
+      "permission": "aqua.command.list",
+      "aliases": []
+    },
+    {
+      "name": "settings",
+      "permission": "",
+      "aliases": [
+        "options"
+      ]
+    },
+    {
+      "name": "cc",
+      "permission": "",
+      "aliases": [
+        "chatcolor"
+      ]
+    },
+    {
+      "name": "notes",
+      "permission": "aqua.command.notes",
+      "aliases": [
+        "note"
+      ]
+    },
+    {
+      "name": "auth",
+      "permission": "",
+      "aliases": [
+        "2fa"
+      ]
+    },
+    {
+      "name": "authreset",
+      "permission": "aqua.command.authreset",
+      "aliases": [
+        "2fareset"
+      ]
+    },
+    {
+      "name": "back",
+      "permission": "aqua.command.back",
+      "aliases": [
+        "lastlocation",
+        "backlocation"
+      ]
+    },
+    {
+      "name": "staffalerts",
+      "permission": "aqua.command.staffalerts",
+      "aliases": [
+        "tsm",
+        "togglestaffmessages"
+      ]
+    },
+    {
+      "name": "day",
+      "permission": "aqua.command.day",
+      "aliases": []
+    },
+    {
+      "name": "night",
+      "permission": "aqua.command.night",
+      "aliases": []
+    },
+    {
+      "name": "globallist",
+      "permission": "aqua.command.glist",
+      "aliases": [
+        "glist"
+      ]
+    },
+    {
+      "name": "gfreeze",
+      "permission": "aqua.command.guifreeze",
+      "aliases": [
+        "guifreeze",
+        "guiss",
+        "guiscreenshare"
+      ]
+    },
+    {
+      "name": "socialspy",
+      "permission": "aqua.command.socialspy",
+      "aliases": [
+        "sspy"
+      ]
+    },
+    {
+      "name": "nick",
+      "permission": "aqua.command.nick",
+      "aliases": []
+    },
+    {
+      "name": "toggletips",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "toggleglobalchat",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "togglementions",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "realname",
+      "permission": "aqua.command.realname",
+      "aliases": []
+    },
+    {
+      "name": "ipreport",
+      "permission": "aqua.command.ipreport",
+      "aliases": []
+    },
+    {
+      "name": "teleportall",
+      "permission": "aqua.command.teleportall",
+      "aliases": [
+        "tpall"
+      ]
+    },
+    {
+      "name": "stafflist",
+      "permission": "aqua.command.stafflist",
+      "aliases": [
+        "onlinestaff"
+      ]
+    },
+    {
+      "name": "alts",
+      "permission": "punishments.command.alts",
+      "aliases": [
+        "checkalts",
+        "checkalt"
+      ]
+    },
+    {
+      "name": "maintenance",
+      "permission": "aqua.command.maintenance",
+      "aliases": []
+    },
+    {
+      "name": "allplayers",
+      "permission": "aqua.command.allplayers",
+      "aliases": []
+    },
+    {
+      "name": "staffannounce",
+      "permission": "aqua.command.staffannounce",
+      "aliases": []
+    },
+    {
+      "name": "enchant",
+      "permission": "aqua.command.enchant",
+      "aliases": []
+    },
+    {
+      "name": "exp",
+      "permission": "aqua.command.exp",
+      "aliases": [
+        "setexp",
+        "setlevel"
+      ]
+    },
+    {
+      "name": "removerank",
+      "permission": "aqua.command.removerank",
+      "aliases": []
+    },
+    {
+      "name": "setslots",
+      "permission": "aqua.command.setslots",
+      "aliases": []
+    },
+    {
+      "name": "disguise",
+      "permission": "aqua.command.disguise",
+      "aliases": []
+    },
+    {
+      "name": "cachedisguise",
+      "permission": "aqua.command.cachedisguise",
+      "aliases": []
+    },
+    {
+      "name": "undisguise",
+      "permission": "aqua.command.undisguise",
+      "aliases": []
+    },
+    {
+      "name": "disguiseinfo",
+      "permission": "aqua.command.disguiseinfo",
+      "aliases": []
+    },
+    {
+      "name": "hidestaff",
+      "permission": "aqua.command.hidestaff",
+      "aliases": []
+    },
+    {
+      "name": "clearpermissions",
+      "permission": "aqua.command.clearpermissions",
+      "aliases": [
+        "clearperm",
+        "clearperms"
+      ]
+    },
+    {
+      "name": "clearalts",
+      "permission": "aqua.command.clearalts",
+      "aliases": []
+    },
+    {
+      "name": "vanishoptions",
+      "permission": "aqua.command.vanishoptions",
+      "aliases": []
+    },
+    {
+      "name": "switch",
+      "permission": "aqua.command.switch",
+      "aliases": []
+    },
+    {
+      "name": "jumpto",
+      "permission": "aqua.command.jumpto",
+      "aliases": [
+        "jt"
+      ]
+    },
+    {
+      "name": "stafflogs",
+      "permission": "aqua.command.stafflogs",
+      "aliases": [
+        "sl",
+        "staffl",
+        "slogs"
+      ]
+    },
+    {
+      "name": "permissions",
+      "permission": "aqua.command.permissions",
+      "aliases": []
+    },
+    {
+      "name": "buildmode",
+      "permission": "aqua.command.buildmode",
+      "aliases": []
+    },
+    {
+      "name": "help",
+      "permission": "aqua.command.help",
+      "aliases": []
+    },
+    {
+      "name": "reboot",
+      "permission": "aqua.command.reboot",
+      "aliases": []
+    }
+  ],
+  "total_commands": 120
+}
